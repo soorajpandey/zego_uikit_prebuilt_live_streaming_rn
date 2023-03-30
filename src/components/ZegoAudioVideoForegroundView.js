@@ -66,8 +66,8 @@ const styles = StyleSheet.create({
         paddingBottom: 1,
         paddingTop: 1,
         borderRadius: 4,
-        bottom: 3,
-        right: 3
+        bottom: 10,
+        right: 10
     },
     nameLabelContainer: {
         alignSelf: 'center',

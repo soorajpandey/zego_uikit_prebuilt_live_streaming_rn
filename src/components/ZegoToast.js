@@ -37,11 +37,11 @@ export default function ZegoToast(props) {
         },
     });
 
-  return (
-    <View style={[styles.container, getCustomContainerStyle(visable, backgroundColor).customContainer]}>
-      <Text style={[styles.text, getCustomTextStyle(color).text]}>{text}</Text>
-    </View>
-  );
+    return (
+        <View style={[styles.container, getCustomContainerStyle(visable, backgroundColor).customContainer]}>
+            <Text style={[styles.text, getCustomTextStyle(color).text]}>{text}</Text>
+        </View>
+    );
 }
 
 const styles = StyleSheet.create({
